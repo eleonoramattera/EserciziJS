@@ -8,7 +8,7 @@ body.style.backgroundColor = "brown";
 btn.addEventListener("click", addColor);
 
 function addColor() {
-  console.log("funzionaa");
+  // console.log("funzionaa");
   let color = parseInt(Math.random() * colors.length);
   body.style.background = colors[color];
 }
