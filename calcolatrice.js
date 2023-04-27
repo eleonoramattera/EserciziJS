@@ -29,6 +29,5 @@ function div() {
 function reset() {
   let input1 = (document.getElementById("input1").value = "0");
   let input2 = (document.getElementById("input2").value = "0");
-
   let output = (document.getElementById("output").innerHTML = 0);
 }
