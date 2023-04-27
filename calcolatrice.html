@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./calcolatrice.css" />
+  </head>
+  <body>
+    <h1>CALCOLATRICE</h1>
+    <div class="container">
+      <div id="output">0</div>
+
+      <input type="text" id="input1" placeholder="0" />
+      <input type="text" id="input2" placeholder="0" />
+
+      <div class="containerBottoni">
+        <div class="uno">
+          <button class="btns" onclick="add()">+</button>
+          <button class="btns" onclick="sub()">-</button>
+        </div>
+        <div class="uno">
+          <button class="btns" onclick="mul()">*</button>
+          <button class="btns" onclick="div()">/</button>
+        </div>
+        <button id="reset" onclick="reset()">RESET</button>
+      </div>
+    </div>
+
+    <script src="calcolatrice.js"></script>
+  </body>
+</html>
