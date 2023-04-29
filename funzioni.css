@@ -1,0 +1,24 @@
+div {
+  margin-bottom: 70px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+button {
+  background-color: rgb(90, 231, 144);
+  padding: 10px;
+  color: black;
+  border-radius: 20px;
+  border: none;
+}
+
+input {
+  background-color: rgb(167, 238, 214);
+  text-indent: 10px;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+}
