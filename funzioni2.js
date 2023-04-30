@@ -131,3 +131,36 @@ function invertiParola(str) {
   let strInversa = str.split("").reverse().join("");
   return strInversa;
 }
+
+//Scrivi due funzioni che prendano in input un array di numeri,
+//una funzione deve restituire il valore maggiore contenuto nell'array,
+//l'altra il valore minore.
+
+let array = [2, 364, 67, 53, 879, 24, 67];
+array.sort(function (a, b) {
+  return a - b;
+});
+console.log(array);
+
+function min(arr) {
+  console.log(array[0]);
+  return array[0];
+}
+
+min();
+
+function mag(arr) {
+  console.log(array.pop());
+  return array.pop();
+}
+
+mag();
+
+//Scrivi una funzione che dato un numero in input, stampi il conto alla rovescia a partire dal numero passato.
+function timer() {
+  for (let i = 4; i >= 0; i--) {
+    const element = i;
+    console.log(element);
+  }
+}
+timer();
